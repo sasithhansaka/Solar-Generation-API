@@ -1,0 +1,188 @@
+[
+  {
+    "_id": "000300000000000000000001",
+    "name": "Colombo Grid Substation 1",
+    "code": "GSS-COL-01",
+    "districtId": "000200000000000000000001"
+  },
+  {
+    "_id": "000300000000000000000002",
+    "name": "Colombo Grid Substation 2",
+    "code": "GSS-COL-02",
+    "districtId": "000200000000000000000001"
+  },
+  {
+    "_id": "000300000000000000000003",
+    "name": "Colombo Grid Substation 3",
+    "code": "GSS-COL-03",
+    "districtId": "000200000000000000000001"
+  },
+  {
+    "_id": "000300000000000000000004",
+    "name": "Gampaha Grid Substation 1",
+    "code": "GSS-GAM-01",
+    "districtId": "000200000000000000000002"
+  },
+  {
+    "_id": "000300000000000000000005",
+    "name": "Gampaha Grid Substation 2",
+    "code": "GSS-GAM-02",
+    "districtId": "000200000000000000000002"
+  },
+  {
+    "_id": "000300000000000000000006",
+    "name": "Kalutara Grid Substation 1",
+    "code": "GSS-KAL-01",
+    "districtId": "000200000000000000000003"
+  },
+  {
+    "_id": "000300000000000000000007",
+    "name": "Kandy Grid Substation 1",
+    "code": "GSS-KAN-01",
+    "districtId": "000200000000000000000004"
+  },
+  {
+    "_id": "000300000000000000000008",
+    "name": "Kandy Grid Substation 2",
+    "code": "GSS-KAN-02",
+    "districtId": "000200000000000000000004"
+  },
+  {
+    "_id": "000300000000000000000009",
+    "name": "Matale Grid Substation 1",
+    "code": "GSS-MAT-01",
+    "districtId": "000200000000000000000005"
+  },
+  {
+    "_id": "00030000000000000000000a",
+    "name": "Nuwara Eliya Grid Substation 1",
+    "code": "GSS-NUW-01",
+    "districtId": "000200000000000000000006"
+  },
+  {
+    "_id": "00030000000000000000000b",
+    "name": "Galle Grid Substation 1",
+    "code": "GSS-GAL-01",
+    "districtId": "000200000000000000000007"
+  },
+  {
+    "_id": "00030000000000000000000c",
+    "name": "Galle Grid Substation 2",
+    "code": "GSS-GAL-02",
+    "districtId": "000200000000000000000007"
+  },
+  {
+    "_id": "00030000000000000000000d",
+    "name": "Matara Grid Substation 1",
+    "code": "GSS-MTR-01",
+    "districtId": "000200000000000000000008"
+  },
+  {
+    "_id": "00030000000000000000000e",
+    "name": "Hambantota Grid Substation 1",
+    "code": "GSS-HAM-01",
+    "districtId": "000200000000000000000009"
+  },
+  {
+    "_id": "00030000000000000000000f",
+    "name": "Jaffna Grid Substation 1",
+    "code": "GSS-JAF-01",
+    "districtId": "00020000000000000000000a"
+  },
+  {
+    "_id": "000300000000000000000010",
+    "name": "Kilinochchi Grid Substation 1",
+    "code": "GSS-KIL-01",
+    "districtId": "00020000000000000000000b"
+  },
+  {
+    "_id": "000300000000000000000011",
+    "name": "Mannar Grid Substation 1",
+    "code": "GSS-MAN-01",
+    "districtId": "00020000000000000000000c"
+  },
+  {
+    "_id": "000300000000000000000012",
+    "name": "Mullaitivu Grid Substation 1",
+    "code": "GSS-MUL-01",
+    "districtId": "00020000000000000000000d"
+  },
+  {
+    "_id": "000300000000000000000013",
+    "name": "Vavuniya Grid Substation 1",
+    "code": "GSS-VAV-01",
+    "districtId": "00020000000000000000000e"
+  },
+  {
+    "_id": "000300000000000000000014",
+    "name": "Batticaloa Grid Substation 1",
+    "code": "GSS-BAT-01",
+    "districtId": "00020000000000000000000f"
+  },
+  {
+    "_id": "000300000000000000000015",
+    "name": "Ampara Grid Substation 1",
+    "code": "GSS-AMP-01",
+    "districtId": "000200000000000000000010"
+  },
+  {
+    "_id": "000300000000000000000016",
+    "name": "Trincomalee Grid Substation 1",
+    "code": "GSS-TRI-01",
+    "districtId": "000200000000000000000011"
+  },
+  {
+    "_id": "000300000000000000000017",
+    "name": "Kurunegala Grid Substation 1",
+    "code": "GSS-KUR-01",
+    "districtId": "000200000000000000000012"
+  },
+  {
+    "_id": "000300000000000000000018",
+    "name": "Kurunegala Grid Substation 2",
+    "code": "GSS-KUR-02",
+    "districtId": "000200000000000000000012"
+  },
+  {
+    "_id": "000300000000000000000019",
+    "name": "Puttalam Grid Substation 1",
+    "code": "GSS-PUT-01",
+    "districtId": "000200000000000000000013"
+  },
+  {
+    "_id": "00030000000000000000001a",
+    "name": "Anuradhapura Grid Substation 1",
+    "code": "GSS-ANU-01",
+    "districtId": "000200000000000000000014"
+  },
+  {
+    "_id": "00030000000000000000001b",
+    "name": "Polonnaruwa Grid Substation 1",
+    "code": "GSS-POL-01",
+    "districtId": "000200000000000000000015"
+  },
+  {
+    "_id": "00030000000000000000001c",
+    "name": "Badulla Grid Substation 1",
+    "code": "GSS-BAD-01",
+    "districtId": "000200000000000000000016"
+  },
+  {
+    "_id": "00030000000000000000001d",
+    "name": "Monaragala Grid Substation 1",
+    "code": "GSS-MON-01",
+    "districtId": "000200000000000000000017"
+  },
+  {
+    "_id": "00030000000000000000001e",
+    "name": "Ratnapura Grid Substation 1",
+    "code": "GSS-RAT-01",
+    "districtId": "000200000000000000000018"
+  },
+  {
+    "_id": "00030000000000000000001f",
+    "name": "Kegalle Grid Substation 1",
+    "code": "GSS-KEG-01",
+    "districtId": "000200000000000000000019"
+  }
+]
