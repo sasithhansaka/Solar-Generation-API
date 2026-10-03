@@ -33,6 +33,9 @@ export const invalidQuery = (message, detail) =>
 export const notFound = (message, detail) =>
   new AppError(404, ErrorCodes.RESOURCE_NOT_FOUND, message, detail);
 
+export const notAcceptable = (message, detail) =>
+  new AppError(406, ErrorCodes.NOT_ACCEPTABLE, message, detail);
+
 export const methodNotAllowed = (allowed) =>
   new AppError(405, ErrorCodes.METHOD_NOT_ALLOWED, 'Method not allowed.', `Allowed methods: ${allowed}.`, {
     Allow: allowed,
