@@ -1,6 +1,10 @@
 import { Router } from 'express';
 import { validateObjectIdParam, rejectOtherMethods } from '../middleware/validateObjectId.js';
-import { getDistrictHandler, listDistrictSubstationsHandler } from '../controllers/districtController.js';
+import {
+  getDistrictGenerationSummaryHandler,
+  getDistrictHandler,
+  listDistrictSubstationsHandler,
+} from '../controllers/districtController.js';
 
 const router = Router();
 const ALLOW = 'GET, HEAD';
@@ -11,6 +15,10 @@ router.route('/districts/:districtId').get(getDistrictHandler).all(rejectOtherMe
 router
   .route('/districts/:districtId/substations')
   .get(listDistrictSubstationsHandler)
+  .all(rejectOtherMethods(ALLOW));
+router
+  .route('/districts/:districtId/generation-summary')
+  .get(getDistrictGenerationSummaryHandler)
   .all(rejectOtherMethods(ALLOW));
 
 export default router;
