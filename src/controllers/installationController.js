@@ -1,6 +1,11 @@
-import { getInstallation } from '../services/installationService.js';
+import { getInstallationComposite, getInstallationLastReading } from '../services/installationService.js';
 
-// Plain installation for now. The composite (with latest reading) comes in a later phase.
+// Composite resource: installation + substation, district, province and lastReading.
 export async function getInstallationHandler(req, res) {
-  res.json(await getInstallation(req.params.installationId));
+  res.json(await getInstallationComposite(req.params.installationId));
+}
+
+// Operational view: the newest reading as a bare object.
+export async function getInstallationLastReadingHandler(req, res) {
+  res.json(await getInstallationLastReading(req.params.installationId));
 }

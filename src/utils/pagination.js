@@ -3,7 +3,7 @@ import { invalidQuery } from './errors.js';
 export const DEFAULT_LIMIT = 10;
 export const MAX_LIMIT = 100;
 
-const ALLOWED_PARAMS = ['page', 'limit'];
+const PAGINATION_PARAMS = ['page', 'limit'];
 
 function parsePositiveInt(name, value, fallback) {
   if (value === undefined) return fallback;
@@ -14,13 +14,14 @@ function parsePositiveInt(name, value, fallback) {
 }
 
 // Reads ?page=&limit= (defaults 1 and 10, limit capped at 100).
-// Unknown query parameters are rejected.
-export function parsePagination(query) {
-  const unknown = Object.keys(query).filter((key) => !ALLOWED_PARAMS.includes(key));
+// Unknown query parameters are rejected; extraParams lists the other parameters a route accepts.
+export function parsePagination(query, extraParams = []) {
+  const allowed = [...PAGINATION_PARAMS, ...extraParams];
+  const unknown = Object.keys(query).filter((key) => !allowed.includes(key));
   if (unknown.length > 0) {
     throw invalidQuery(
       'Unsupported query parameter.',
-      `Unknown parameter(s): ${unknown.join(', ')}. Supported: ${ALLOWED_PARAMS.join(', ')}.`
+      `Unknown parameter(s): ${unknown.join(', ')}. Supported: ${allowed.join(', ')}.`
     );
   }
 
@@ -41,7 +42,15 @@ export async function findPage(Model, filter, { skip, limit }) {
 // { data, pagination: { page, limit, total, next, previous } }
 export function buildPage(req, items, total, { page, limit }) {
   const path = new URL(req.originalUrl, 'http://localhost').pathname;
-  const link = (p) => `${path}?page=${p}&limit=${limit}`;
+
+  // Keep every active filter and the sort order; only page and limit change.
+  const link = (p) => {
+    const params = new URLSearchParams({ page: String(p), limit: String(limit) });
+    for (const [key, value] of Object.entries(req.query)) {
+      if (!PAGINATION_PARAMS.includes(key)) params.append(key, value);
+    }
+    return `${path}?${params}`;
+  };
 
   return {
     data: items,

@@ -22,5 +22,7 @@ const generationReadingSchema = new mongoose.Schema(
 
 // Serves last-reading and history queries; uniqueness blocks duplicate readings.
 generationReadingSchema.index({ installationId: 1, timestamp: -1 }, { unique: true });
+// Serves cross-installation history (GET /readings) sorted by timestamp.
+generationReadingSchema.index({ timestamp: -1, installationId: 1 });
 
 export default mongoose.model('GenerationReading', generationReadingSchema);

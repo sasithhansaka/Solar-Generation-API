@@ -218,7 +218,7 @@ Indexes:
 | districts          | provinceId; { provinceId, name } unique              |
 | gridSubstations    | code unique; districtId                              |
 | solarInstallations | meterId unique; substationId                         |
-| generationReadings | { installationId: 1, timestamp: -1 } unique          |
+| generationReadings | { installationId: 1, timestamp: -1 } unique; { timestamp: -1, installationId: 1 } (GET /readings) |
 | users              | email unique                                         |
 
 `User.jurisdictionId` references a Province or a District depending on
