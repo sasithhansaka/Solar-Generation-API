@@ -3,7 +3,7 @@ import SolarInstallation from '../models/SolarInstallation.js';
 import GridSubstation from '../models/GridSubstation.js';
 import District from '../models/District.js';
 import Province from '../models/Province.js';
-import { invalidQuery, notFound } from '../utils/errors.js';
+import { conflict, invalidQuery, notFound } from '../utils/errors.js';
 
 // Most recent reading for an installation, or null if it has none.
 // Uses the { installationId: 1, timestamp: -1 } index. Shared by the installation
@@ -95,4 +95,26 @@ export async function listReadings(query) {
   // so without it the order of those rows (and therefore the pages) is not stable.
   const sort = { timestamp: query.direction, installationId: query.direction };
   return queryReadings(filter, sort, query);
+}
+
+// One reading of one installation. 404 if it does not exist or belongs to another installation.
+export async function getReading(installationId, readingId) {
+  const reading = await GenerationReading.findOne({ _id: readingId, installationId }).lean();
+  if (!reading) throw notFound('Reading not found.', 'No reading with this id exists for this installation.');
+  return reading;
+}
+
+// Device ingestion: appends one reading for an installation (readings are never updated or deleted).
+// 409 if the installation already has a reading with this timestamp.
+// The caller has already checked that the installation exists.
+export async function createReading(installationId, data) {
+  try {
+    const reading = await GenerationReading.create({ installationId, ...data });
+    return reading.toObject();
+  } catch (err) {
+    if (err.code === 11000) {
+      throw conflict('Reading already exists.', 'This installation already has a reading with this timestamp.');
+    }
+    throw err;
+  }
 }

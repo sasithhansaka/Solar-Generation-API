@@ -1,7 +1,9 @@
 import 'dotenv/config';
 
-if (!process.env.MONGODB_URI) {
-  throw new Error('MONGODB_URI is not set. Copy .env.example to .env and fill it in.');
+for (const name of ['MONGODB_URI', 'JWT_SECRET', 'DEVICE_TOKEN_SECRET']) {
+  if (!process.env[name]) {
+    throw new Error(`${name} is not set. Copy .env.example to .env and fill it in.`);
+  }
 }
 
 export const port = process.env.PORT || 3000;

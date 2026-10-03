@@ -36,6 +36,19 @@ export const notFound = (message, detail) =>
 export const notAcceptable = (message, detail) =>
   new AppError(406, ErrorCodes.NOT_ACCEPTABLE, message, detail);
 
+// 401: the client must (re)authenticate. 403: authenticated, but not allowed.
+export const unauthorized = (message, detail, code = ErrorCodes.AUTHENTICATION_REQUIRED) =>
+  new AppError(401, code, message, detail, { 'WWW-Authenticate': 'Bearer realm="solar-generation-api"' });
+
+export const forbidden = (message, detail, code = ErrorCodes.FORBIDDEN) =>
+  new AppError(403, code, message, detail);
+
+export const unsupportedMediaType = (message, detail) =>
+  new AppError(415, ErrorCodes.VALIDATION_ERROR, message, detail);
+
+export const conflict = (message, detail) =>
+  new AppError(409, ErrorCodes.CONFLICT, message, detail);
+
 export const methodNotAllowed = (allowed) =>
   new AppError(405, ErrorCodes.METHOD_NOT_ALLOWED, 'Method not allowed.', `Allowed methods: ${allowed}.`, {
     Allow: allowed,
