@@ -4,6 +4,8 @@ import GridSubstation from '../models/GridSubstation.js';
 import District from '../models/District.js';
 import Province from '../models/Province.js';
 import { conflict, invalidQuery, notFound } from '../utils/errors.js';
+import { assertCanAccess, getScopedInstallationIds } from './authorizationService.js';
+import { getInstallationForUser } from './installationLookup.js';
 
 // Most recent reading for an installation, or null if it has none.
 // Uses the { installationId: 1, timestamp: -1 } index. Shared by the installation
@@ -30,28 +32,39 @@ async function queryReadings(filter, sort, { skip, limit }) {
   return { items, total };
 }
 
-// History of one installation.
-export async function listInstallationReadings(installationId, query) {
-  if (!(await SolarInstallation.exists({ _id: installationId }))) {
-    throw notFound('Installation not found.', 'No installation exists for the supplied identifier.');
-  }
+// History of one installation. 404 if it does not exist, 403 if outside the user's jurisdiction.
+export async function listInstallationReadings(installationId, query, user) {
+  await getInstallationForUser(installationId, user);
 
   const filter = { installationId, ...timeWindow(query) };
   return queryReadings(filter, { timestamp: query.direction }, query);
 }
 
+// One reading of one installation. The installation is checked first (404, then 403);
+// 404 if the reading does not exist or belongs to another installation.
+export async function getReading(installationId, readingId, user) {
+  await getInstallationForUser(installationId, user);
+
+  const reading = await GenerationReading.findOne({ _id: readingId, installationId }).lean();
+  if (!reading) throw notFound('Reading not found.', 'No reading with this id exists for this installation.');
+  return reading;
+}
+
 // Resolves provinceId / districtId / substationId into the ids of the installations in that
-// scope (province -> districts -> substations -> installations). Returns null for "no scope".
-// Throws 400 if an id does not exist or the ids contradict each other.
-async function resolveInstallationIds({ provinceId, districtId, substationId }) {
+// scope (province -> districts -> substations -> installations). Returns null for "no filter".
+// 400 if an id does not exist or the ids contradict each other; 403 if the user may not read
+// the province, district or substation they name.
+async function resolveInstallationIds({ provinceId, districtId, substationId }, user) {
   if (!provinceId && !districtId && !substationId) return null;
 
   let substation = null;
   let district = null;
+  let province = null;
 
   if (substationId) {
     substation = await GridSubstation.findById(substationId).lean();
     if (!substation) throw invalidQuery('Invalid "substationId" parameter.', 'No substation exists for this id.');
+    await assertCanAccess(user, 'substation', substation);
     if (districtId && String(substation.districtId) !== districtId) {
       throw invalidQuery('Conflicting filters.', 'The substation does not belong to the given district.');
     }
@@ -61,14 +74,16 @@ async function resolveInstallationIds({ provinceId, districtId, substationId }) 
   if (effectiveDistrictId) {
     district = await District.findById(effectiveDistrictId).lean();
     if (!district) throw invalidQuery('Invalid "districtId" parameter.', 'No district exists for this id.');
+    await assertCanAccess(user, 'district', district);
     if (provinceId && String(district.provinceId) !== provinceId) {
       throw invalidQuery('Conflicting filters.', 'The district does not belong to the given province.');
     }
   }
 
-  if (provinceId && !district) {
-    const province = await Province.findById(provinceId).lean();
+  if (provinceId) {
+    province = await Province.findById(provinceId).lean();
     if (!province) throw invalidQuery('Invalid "provinceId" parameter.', 'No province exists for this id.');
+    await assertCanAccess(user, 'province', province);
   }
 
   // Narrowest scope wins: substation, else district, else province.
@@ -84,9 +99,17 @@ async function resolveInstallationIds({ provinceId, districtId, substationId }) 
   return SolarInstallation.distinct('_id', { substationId: { $in: substationIds } });
 }
 
-// Readings across installations, optionally limited to a province, district or substation.
-export async function listReadings(query) {
-  const installationIds = await resolveInstallationIds(query);
+// Readings across installations, optionally narrowed to a province, district or substation.
+// Results are always limited to the installations the user may see.
+export async function listReadings(query, user) {
+  const requestedIds = await resolveInstallationIds(query, user);
+  const allowedIds = await getScopedInstallationIds(user); // null = every installation (national)
+
+  let installationIds = requestedIds;
+  if (allowedIds) {
+    const allowed = new Set(allowedIds.map(String));
+    installationIds = (requestedIds || allowedIds).filter((id) => allowed.has(String(id)));
+  }
 
   const filter = { ...timeWindow(query) };
   if (installationIds) filter.installationId = { $in: installationIds };
@@ -95,13 +118,6 @@ export async function listReadings(query) {
   // so without it the order of those rows (and therefore the pages) is not stable.
   const sort = { timestamp: query.direction, installationId: query.direction };
   return queryReadings(filter, sort, query);
-}
-
-// One reading of one installation. 404 if it does not exist or belongs to another installation.
-export async function getReading(installationId, readingId) {
-  const reading = await GenerationReading.findOne({ _id: readingId, installationId }).lean();
-  if (!reading) throw notFound('Reading not found.', 'No reading with this id exists for this installation.');
-  return reading;
 }
 
 // Device ingestion: appends one reading for an installation (readings are never updated or deleted).

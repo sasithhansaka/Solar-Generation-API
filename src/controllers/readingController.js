@@ -3,7 +3,7 @@ import { buildPage } from '../utils/pagination.js';
 import { parseReadingQuery } from '../utils/readingQuery.js';
 import { forbidden, unsupportedMediaType } from '../utils/errors.js';
 import { validateReadingBody } from '../validators/readingValidators.js';
-import { getInstallation } from '../services/installationService.js';
+import { getInstallation } from '../services/installationLookup.js';
 import {
   createReading,
   getReading,
@@ -14,20 +14,20 @@ import {
 // History of one installation: page, limit, sort, from, to.
 export async function listInstallationReadingsHandler(req, res) {
   const query = parseReadingQuery(req.query);
-  const { items, total } = await listInstallationReadings(req.params.installationId, query);
+  const { items, total } = await listInstallationReadings(req.params.installationId, query, req.user);
   sendJson(req, res, buildPage(req, items, total, query));
 }
 
 // Readings across installations: the same plus provinceId, districtId, substationId.
 export async function listReadingsHandler(req, res) {
   const query = parseReadingQuery(req.query, { scopeFilters: true });
-  const { items, total } = await listReadings(query);
+  const { items, total } = await listReadings(query, req.user);
   sendJson(req, res, buildPage(req, items, total, query));
 }
 
 export async function getReadingHandler(req, res) {
   const { installationId, readingId } = req.params;
-  sendJson(req, res, await getReading(installationId, readingId));
+  sendJson(req, res, await getReading(installationId, readingId, req.user));
 }
 
 // Device ingestion. By the time this runs the device token is verified (401 otherwise).
