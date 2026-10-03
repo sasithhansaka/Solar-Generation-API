@@ -23,13 +23,13 @@ User (separate)
 | Province          | _id, name                                                                     |
 | District          | _id, name, provinceId                                                         |
 | GridSubstation    | _id, name, code, districtId                                                   |
-| SolarInstallation | _id, name, meterId, inverterId, latitude, longitude, substationId             |
+| SolarInstallation | _id, name, meterId, latitude, longitude, substationId                         |
 | GenerationReading | _id, installationId, timestamp, powerKw, energyKwh, voltage                   |
 | User              | _id, name, email, passwordHash, role, jurisdictionType, jurisdictionId        |
 
 Rules:
 
--   No separate `Device` entity. `meterId` / `inverterId` belong to
+-   No separate `Device` entity. `meterId` belongs to
     `SolarInstallation`.
 -   `GenerationReading` is an append-only time series: one document per
     measurement, no `lastPower`-style fields on the installation.
@@ -217,7 +217,7 @@ Indexes:
 | provinces          | name unique                                          |
 | districts          | provinceId; { provinceId, name } unique              |
 | gridSubstations    | code unique; districtId                              |
-| solarInstallations | meterId unique; inverterId unique; substationId      |
+| solarInstallations | meterId unique; substationId                         |
 | generationReadings | { installationId: 1, timestamp: -1 } unique          |
 | users              | email unique                                         |
 

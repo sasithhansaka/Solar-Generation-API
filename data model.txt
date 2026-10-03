@@ -35,7 +35,6 @@ SolarInstallation
 - _id
 - name
 - meterId
-- inverterId
 - latitude
 - longitude
 - substationId

@@ -44,7 +44,7 @@ Write the seed script in src/database/seed/ (seed.js plus one file per entity). 
 Scale:
 - 9 provinces, 25 districts (real Sri Lankan names)
 - at least 25 substations (at least one per district)
-- at least 200 installations spread across substations, with meterId, inverterId (both unique), and latitude/longitude near the district
+- at least 200 installations spread across substations, with a unique meterId, and latitude/longitude near the district
 - readings every 15 minutes for the last 7 days per installation (672 each), ending at the current 15-minute boundary
 
 Readings: powerKw follows a daytime curve (about 0 at night, rising in the morning, peak at midday, falling in the evening, using Sri Lanka time UTC+5:30) with small noise and a per-installation capacity. energyKwh is the running sum of powerKw * 0.25 and must always increase. voltage is about 230 with small noise. Use a seeded PRNG so every run gives identical data. Insert readings with insertMany in batches of 5000.
