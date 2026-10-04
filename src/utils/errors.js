@@ -1,4 +1,3 @@
-// Error codes used in the response body: { error: { code, message, detail } }
 export const ErrorCodes = {
   VALIDATION_ERROR: 'VALIDATION_ERROR',
   INVALID_QUERY: 'INVALID_QUERY',

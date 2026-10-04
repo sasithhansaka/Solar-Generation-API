@@ -1,7 +1,7 @@
 import { badRequest } from '../utils/errors.js';
 
-// POST /auth/login body: { email, password }
 export function validateLoginBody(body) {
+  
   const problems = [];
   const isObject = body && typeof body === 'object' && !Array.isArray(body);
   const { email, password } = isObject ? body : {};

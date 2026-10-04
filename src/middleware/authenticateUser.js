@@ -3,13 +3,11 @@ import { jwtSecret } from '../config/env.js';
 import { unauthorized } from '../utils/errors.js';
 import { bearerToken, verifyToken } from './authenticate.js';
 
-// SLSEA user (read client). Verifies a user JWT and attaches req.user.
-// A device token is rejected here.
+
 export async function authenticateUser(req, res, next) {
   try {
     const payload = verifyToken(bearerToken(req), jwtSecret, 'user');
 
-    // Role and jurisdiction are read from the database, not trusted from the token.
     const user = await User.findById(payload.sub).lean();
     if (!user) throw unauthorized('Invalid token.', 'The user for this token no longer exists.');
 

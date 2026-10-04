@@ -1,7 +1,6 @@
 import jwt from 'jsonwebtoken';
 import { unauthorized } from '../utils/errors.js';
 
-// Reads "Authorization: Bearer <token>". Missing or malformed header -> 401.
 export function bearerToken(req) {
   const header = req.get('Authorization');
   if (!header) throw unauthorized('Authentication required.', 'Send an "Authorization: Bearer <token>" header.');

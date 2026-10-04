@@ -6,8 +6,6 @@ import { unauthorized, ErrorCodes } from '../utils/errors.js';
 
 export const USER_TOKEN_EXPIRY = '8h';
 
-// Compared against when the email is unknown, so unknown-email and wrong-password
-// take about the same time and give the same answer.
 const DUMMY_HASH = bcrypt.hashSync('not-a-real-password', 10);
 
 export async function login(email, password) {

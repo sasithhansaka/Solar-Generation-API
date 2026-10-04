@@ -2,7 +2,6 @@ import { badRequest, methodNotAllowed } from '../utils/errors.js';
 
 const OBJECT_ID = /^[0-9a-fA-F]{24}$/;
 
-// For router.param(...): rejects a malformed id with 400 before any database query.
 export function validateObjectIdParam(req, res, next, value, name) {
   if (!OBJECT_ID.test(value)) {
     return next(badRequest('Invalid identifier.', `"${name}" must be a 24-character hexadecimal id.`));
