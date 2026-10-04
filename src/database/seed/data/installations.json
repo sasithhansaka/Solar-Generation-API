@@ -1,0 +1,1922 @@
+[
+  {
+    "_id": "000400000000000000000001",
+    "name": "Colombo Rooftop Solar 001",
+    "meterId": "MTR-000001",
+    "latitude": 6.991411,
+    "longitude": 79.891844,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "000400000000000000000002",
+    "name": "Colombo Rooftop Solar 002",
+    "meterId": "MTR-000002",
+    "latitude": 6.943396,
+    "longitude": 79.907408,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "000400000000000000000003",
+    "name": "Colombo Rooftop Solar 003",
+    "meterId": "MTR-000003",
+    "latitude": 6.955152,
+    "longitude": 79.898968,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "000400000000000000000004",
+    "name": "Gampaha Rooftop Solar 004",
+    "meterId": "MTR-000004",
+    "latitude": 7.05837,
+    "longitude": 80.110466,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "000400000000000000000005",
+    "name": "Gampaha Rooftop Solar 005",
+    "meterId": "MTR-000005",
+    "latitude": 7.10407,
+    "longitude": 80.019364,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "000400000000000000000006",
+    "name": "Kalutara Rooftop Solar 006",
+    "meterId": "MTR-000006",
+    "latitude": 6.494943,
+    "longitude": 79.969413,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "000400000000000000000007",
+    "name": "Kandy Rooftop Solar 007",
+    "meterId": "MTR-000007",
+    "latitude": 7.282609,
+    "longitude": 80.556045,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "000400000000000000000008",
+    "name": "Kandy Rooftop Solar 008",
+    "meterId": "MTR-000008",
+    "latitude": 7.22314,
+    "longitude": 80.54338,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "000400000000000000000009",
+    "name": "Matale Rooftop Solar 009",
+    "meterId": "MTR-000009",
+    "latitude": 7.410422,
+    "longitude": 80.716735,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "00040000000000000000000a",
+    "name": "Nuwara Eliya Rooftop Solar 010",
+    "meterId": "MTR-000010",
+    "latitude": 7.020425,
+    "longitude": 80.759088,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "00040000000000000000000b",
+    "name": "Galle Rooftop Solar 011",
+    "meterId": "MTR-000011",
+    "latitude": 6.091241,
+    "longitude": 80.155276,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "00040000000000000000000c",
+    "name": "Galle Rooftop Solar 012",
+    "meterId": "MTR-000012",
+    "latitude": 6.001624,
+    "longitude": 80.14178,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "00040000000000000000000d",
+    "name": "Matara Rooftop Solar 013",
+    "meterId": "MTR-000013",
+    "latitude": 5.988364,
+    "longitude": 80.654778,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "00040000000000000000000e",
+    "name": "Hambantota Rooftop Solar 014",
+    "meterId": "MTR-000014",
+    "latitude": 6.136277,
+    "longitude": 81.056023,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "00040000000000000000000f",
+    "name": "Jaffna Rooftop Solar 015",
+    "meterId": "MTR-000015",
+    "latitude": 9.719633,
+    "longitude": 80.00991,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "000400000000000000000010",
+    "name": "Kilinochchi Rooftop Solar 016",
+    "meterId": "MTR-000016",
+    "latitude": 9.356964,
+    "longitude": 80.436451,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "000400000000000000000011",
+    "name": "Mannar Rooftop Solar 017",
+    "meterId": "MTR-000017",
+    "latitude": 9.066924,
+    "longitude": 79.869256,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "000400000000000000000012",
+    "name": "Mullaitivu Rooftop Solar 018",
+    "meterId": "MTR-000018",
+    "latitude": 9.265135,
+    "longitude": 80.87149,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "000400000000000000000013",
+    "name": "Vavuniya Rooftop Solar 019",
+    "meterId": "MTR-000019",
+    "latitude": 8.75435,
+    "longitude": 80.428978,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "000400000000000000000014",
+    "name": "Batticaloa Rooftop Solar 020",
+    "meterId": "MTR-000020",
+    "latitude": 7.691848,
+    "longitude": 81.623857,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "000400000000000000000015",
+    "name": "Ampara Rooftop Solar 021",
+    "meterId": "MTR-000021",
+    "latitude": 7.268981,
+    "longitude": 81.740134,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "000400000000000000000016",
+    "name": "Trincomalee Rooftop Solar 022",
+    "meterId": "MTR-000022",
+    "latitude": 8.540473,
+    "longitude": 81.184227,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "000400000000000000000017",
+    "name": "Kurunegala Rooftop Solar 023",
+    "meterId": "MTR-000023",
+    "latitude": 7.39149,
+    "longitude": 80.282307,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "000400000000000000000018",
+    "name": "Kurunegala Rooftop Solar 024",
+    "meterId": "MTR-000024",
+    "latitude": 7.485471,
+    "longitude": 80.427987,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "000400000000000000000019",
+    "name": "Puttalam Rooftop Solar 025",
+    "meterId": "MTR-000025",
+    "latitude": 8.124897,
+    "longitude": 79.747673,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "00040000000000000000001a",
+    "name": "Anuradhapura Rooftop Solar 026",
+    "meterId": "MTR-000026",
+    "latitude": 8.249669,
+    "longitude": 80.440622,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "00040000000000000000001b",
+    "name": "Polonnaruwa Rooftop Solar 027",
+    "meterId": "MTR-000027",
+    "latitude": 7.861939,
+    "longitude": 80.919693,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "00040000000000000000001c",
+    "name": "Badulla Rooftop Solar 028",
+    "meterId": "MTR-000028",
+    "latitude": 6.969456,
+    "longitude": 81.010324,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "00040000000000000000001d",
+    "name": "Monaragala Rooftop Solar 029",
+    "meterId": "MTR-000029",
+    "latitude": 6.924463,
+    "longitude": 81.403419,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "00040000000000000000001e",
+    "name": "Ratnapura Rooftop Solar 030",
+    "meterId": "MTR-000030",
+    "latitude": 6.610923,
+    "longitude": 80.33219,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "00040000000000000000001f",
+    "name": "Kegalle Rooftop Solar 031",
+    "meterId": "MTR-000031",
+    "latitude": 7.180416,
+    "longitude": 80.443934,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "000400000000000000000020",
+    "name": "Colombo Rooftop Solar 032",
+    "meterId": "MTR-000032",
+    "latitude": 6.992383,
+    "longitude": 79.933664,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "000400000000000000000021",
+    "name": "Colombo Rooftop Solar 033",
+    "meterId": "MTR-000033",
+    "latitude": 6.882422,
+    "longitude": 79.823649,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "000400000000000000000022",
+    "name": "Colombo Rooftop Solar 034",
+    "meterId": "MTR-000034",
+    "latitude": 6.891931,
+    "longitude": 79.954918,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "000400000000000000000023",
+    "name": "Gampaha Rooftop Solar 035",
+    "meterId": "MTR-000035",
+    "latitude": 7.135901,
+    "longitude": 80.041242,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "000400000000000000000024",
+    "name": "Gampaha Rooftop Solar 036",
+    "meterId": "MTR-000036",
+    "latitude": 7.04723,
+    "longitude": 80.00551,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "000400000000000000000025",
+    "name": "Kalutara Rooftop Solar 037",
+    "meterId": "MTR-000037",
+    "latitude": 6.563079,
+    "longitude": 79.959683,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "000400000000000000000026",
+    "name": "Kandy Rooftop Solar 038",
+    "meterId": "MTR-000038",
+    "latitude": 7.286994,
+    "longitude": 80.617884,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "000400000000000000000027",
+    "name": "Kandy Rooftop Solar 039",
+    "meterId": "MTR-000039",
+    "latitude": 7.293689,
+    "longitude": 80.534755,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "000400000000000000000028",
+    "name": "Matale Rooftop Solar 040",
+    "meterId": "MTR-000040",
+    "latitude": 7.376863,
+    "longitude": 80.635679,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "000400000000000000000029",
+    "name": "Nuwara Eliya Rooftop Solar 041",
+    "meterId": "MTR-000041",
+    "latitude": 6.87199,
+    "longitude": 80.69952,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "00040000000000000000002a",
+    "name": "Galle Rooftop Solar 042",
+    "meterId": "MTR-000042",
+    "latitude": 5.984609,
+    "longitude": 80.302147,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "00040000000000000000002b",
+    "name": "Galle Rooftop Solar 043",
+    "meterId": "MTR-000043",
+    "latitude": 6.105986,
+    "longitude": 80.178302,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "00040000000000000000002c",
+    "name": "Matara Rooftop Solar 044",
+    "meterId": "MTR-000044",
+    "latitude": 5.964438,
+    "longitude": 80.635255,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "00040000000000000000002d",
+    "name": "Hambantota Rooftop Solar 045",
+    "meterId": "MTR-000045",
+    "latitude": 6.126276,
+    "longitude": 81.043594,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "00040000000000000000002e",
+    "name": "Jaffna Rooftop Solar 046",
+    "meterId": "MTR-000046",
+    "latitude": 9.647923,
+    "longitude": 80.00945,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "00040000000000000000002f",
+    "name": "Kilinochchi Rooftop Solar 047",
+    "meterId": "MTR-000047",
+    "latitude": 9.33437,
+    "longitude": 80.341433,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "000400000000000000000030",
+    "name": "Mannar Rooftop Solar 048",
+    "meterId": "MTR-000048",
+    "latitude": 8.962899,
+    "longitude": 79.881107,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "000400000000000000000031",
+    "name": "Mullaitivu Rooftop Solar 049",
+    "meterId": "MTR-000049",
+    "latitude": 9.230101,
+    "longitude": 80.902454,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "000400000000000000000032",
+    "name": "Vavuniya Rooftop Solar 050",
+    "meterId": "MTR-000050",
+    "latitude": 8.827094,
+    "longitude": 80.450569,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "000400000000000000000033",
+    "name": "Batticaloa Rooftop Solar 051",
+    "meterId": "MTR-000051",
+    "latitude": 7.64113,
+    "longitude": 81.659028,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "000400000000000000000034",
+    "name": "Ampara Rooftop Solar 052",
+    "meterId": "MTR-000052",
+    "latitude": 7.210605,
+    "longitude": 81.73961,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "000400000000000000000035",
+    "name": "Trincomalee Rooftop Solar 053",
+    "meterId": "MTR-000053",
+    "latitude": 8.553009,
+    "longitude": 81.190371,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "000400000000000000000036",
+    "name": "Kurunegala Rooftop Solar 054",
+    "meterId": "MTR-000054",
+    "latitude": 7.450494,
+    "longitude": 80.434894,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "000400000000000000000037",
+    "name": "Kurunegala Rooftop Solar 055",
+    "meterId": "MTR-000055",
+    "latitude": 7.562651,
+    "longitude": 80.454722,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "000400000000000000000038",
+    "name": "Puttalam Rooftop Solar 056",
+    "meterId": "MTR-000056",
+    "latitude": 7.944956,
+    "longitude": 79.905141,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "000400000000000000000039",
+    "name": "Anuradhapura Rooftop Solar 057",
+    "meterId": "MTR-000057",
+    "latitude": 8.346444,
+    "longitude": 80.384228,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "00040000000000000000003a",
+    "name": "Polonnaruwa Rooftop Solar 058",
+    "meterId": "MTR-000058",
+    "latitude": 7.99185,
+    "longitude": 81.070843,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "00040000000000000000003b",
+    "name": "Badulla Rooftop Solar 059",
+    "meterId": "MTR-000059",
+    "latitude": 6.959742,
+    "longitude": 81.13433,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "00040000000000000000003c",
+    "name": "Monaragala Rooftop Solar 060",
+    "meterId": "MTR-000060",
+    "latitude": 6.821765,
+    "longitude": 81.425053,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "00040000000000000000003d",
+    "name": "Ratnapura Rooftop Solar 061",
+    "meterId": "MTR-000061",
+    "latitude": 6.62161,
+    "longitude": 80.311725,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "00040000000000000000003e",
+    "name": "Kegalle Rooftop Solar 062",
+    "meterId": "MTR-000062",
+    "latitude": 7.338541,
+    "longitude": 80.324152,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "00040000000000000000003f",
+    "name": "Colombo Rooftop Solar 063",
+    "meterId": "MTR-000063",
+    "latitude": 6.974786,
+    "longitude": 79.827914,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "000400000000000000000040",
+    "name": "Colombo Rooftop Solar 064",
+    "meterId": "MTR-000064",
+    "latitude": 6.889838,
+    "longitude": 79.911597,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "000400000000000000000041",
+    "name": "Colombo Rooftop Solar 065",
+    "meterId": "MTR-000065",
+    "latitude": 6.876051,
+    "longitude": 79.797918,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "000400000000000000000042",
+    "name": "Gampaha Rooftop Solar 066",
+    "meterId": "MTR-000066",
+    "latitude": 7.133237,
+    "longitude": 79.954065,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "000400000000000000000043",
+    "name": "Gampaha Rooftop Solar 067",
+    "meterId": "MTR-000067",
+    "latitude": 7.043466,
+    "longitude": 80.031289,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "000400000000000000000044",
+    "name": "Kalutara Rooftop Solar 068",
+    "meterId": "MTR-000068",
+    "latitude": 6.684313,
+    "longitude": 79.937827,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "000400000000000000000045",
+    "name": "Kandy Rooftop Solar 069",
+    "meterId": "MTR-000069",
+    "latitude": 7.196103,
+    "longitude": 80.542142,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "000400000000000000000046",
+    "name": "Kandy Rooftop Solar 070",
+    "meterId": "MTR-000070",
+    "latitude": 7.264396,
+    "longitude": 80.709976,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "000400000000000000000047",
+    "name": "Matale Rooftop Solar 071",
+    "meterId": "MTR-000071",
+    "latitude": 7.552601,
+    "longitude": 80.587148,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "000400000000000000000048",
+    "name": "Nuwara Eliya Rooftop Solar 072",
+    "meterId": "MTR-000072",
+    "latitude": 6.856649,
+    "longitude": 80.872409,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "000400000000000000000049",
+    "name": "Galle Rooftop Solar 073",
+    "meterId": "MTR-000073",
+    "latitude": 6.147127,
+    "longitude": 80.186611,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "00040000000000000000004a",
+    "name": "Galle Rooftop Solar 074",
+    "meterId": "MTR-000074",
+    "latitude": 6.058525,
+    "longitude": 80.316401,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "00040000000000000000004b",
+    "name": "Matara Rooftop Solar 075",
+    "meterId": "MTR-000075",
+    "latitude": 5.96784,
+    "longitude": 80.514058,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "00040000000000000000004c",
+    "name": "Hambantota Rooftop Solar 076",
+    "meterId": "MTR-000076",
+    "latitude": 6.150918,
+    "longitude": 81.047767,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "00040000000000000000004d",
+    "name": "Jaffna Rooftop Solar 077",
+    "meterId": "MTR-000077",
+    "latitude": 9.720281,
+    "longitude": 79.96203,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "00040000000000000000004e",
+    "name": "Kilinochchi Rooftop Solar 078",
+    "meterId": "MTR-000078",
+    "latitude": 9.437984,
+    "longitude": 80.30985,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "00040000000000000000004f",
+    "name": "Mannar Rooftop Solar 079",
+    "meterId": "MTR-000079",
+    "latitude": 9.04981,
+    "longitude": 79.943493,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "000400000000000000000050",
+    "name": "Mullaitivu Rooftop Solar 080",
+    "meterId": "MTR-000080",
+    "latitude": 9.228524,
+    "longitude": 80.800677,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "000400000000000000000051",
+    "name": "Vavuniya Rooftop Solar 081",
+    "meterId": "MTR-000081",
+    "latitude": 8.665707,
+    "longitude": 80.43856,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "000400000000000000000052",
+    "name": "Batticaloa Rooftop Solar 082",
+    "meterId": "MTR-000082",
+    "latitude": 7.693225,
+    "longitude": 81.614083,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "000400000000000000000053",
+    "name": "Ampara Rooftop Solar 083",
+    "meterId": "MTR-000083",
+    "latitude": 7.209462,
+    "longitude": 81.76534,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "000400000000000000000054",
+    "name": "Trincomalee Rooftop Solar 084",
+    "meterId": "MTR-000084",
+    "latitude": 8.530769,
+    "longitude": 81.227099,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "000400000000000000000055",
+    "name": "Kurunegala Rooftop Solar 085",
+    "meterId": "MTR-000085",
+    "latitude": 7.404451,
+    "longitude": 80.431656,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "000400000000000000000056",
+    "name": "Kurunegala Rooftop Solar 086",
+    "meterId": "MTR-000086",
+    "latitude": 7.463517,
+    "longitude": 80.411479,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "000400000000000000000057",
+    "name": "Puttalam Rooftop Solar 087",
+    "meterId": "MTR-000087",
+    "latitude": 8.03362,
+    "longitude": 79.919172,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "000400000000000000000058",
+    "name": "Anuradhapura Rooftop Solar 088",
+    "meterId": "MTR-000088",
+    "latitude": 8.403517,
+    "longitude": 80.319144,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "000400000000000000000059",
+    "name": "Polonnaruwa Rooftop Solar 089",
+    "meterId": "MTR-000089",
+    "latitude": 7.898326,
+    "longitude": 80.977119,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "00040000000000000000005a",
+    "name": "Badulla Rooftop Solar 090",
+    "meterId": "MTR-000090",
+    "latitude": 7.035163,
+    "longitude": 81.058334,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "00040000000000000000005b",
+    "name": "Monaragala Rooftop Solar 091",
+    "meterId": "MTR-000091",
+    "latitude": 6.836244,
+    "longitude": 81.359737,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "00040000000000000000005c",
+    "name": "Ratnapura Rooftop Solar 092",
+    "meterId": "MTR-000092",
+    "latitude": 6.667697,
+    "longitude": 80.393562,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "00040000000000000000005d",
+    "name": "Kegalle Rooftop Solar 093",
+    "meterId": "MTR-000093",
+    "latitude": 7.282414,
+    "longitude": 80.423415,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "00040000000000000000005e",
+    "name": "Colombo Rooftop Solar 094",
+    "meterId": "MTR-000094",
+    "latitude": 6.953766,
+    "longitude": 79.937482,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "00040000000000000000005f",
+    "name": "Colombo Rooftop Solar 095",
+    "meterId": "MTR-000095",
+    "latitude": 6.981494,
+    "longitude": 79.920628,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "000400000000000000000060",
+    "name": "Colombo Rooftop Solar 096",
+    "meterId": "MTR-000096",
+    "latitude": 6.904533,
+    "longitude": 79.801616,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "000400000000000000000061",
+    "name": "Gampaha Rooftop Solar 097",
+    "meterId": "MTR-000097",
+    "latitude": 7.017854,
+    "longitude": 80.039888,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "000400000000000000000062",
+    "name": "Gampaha Rooftop Solar 098",
+    "meterId": "MTR-000098",
+    "latitude": 7.125175,
+    "longitude": 79.931881,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "000400000000000000000063",
+    "name": "Kalutara Rooftop Solar 099",
+    "meterId": "MTR-000099",
+    "latitude": 6.573347,
+    "longitude": 79.970854,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "000400000000000000000064",
+    "name": "Kandy Rooftop Solar 100",
+    "meterId": "MTR-000100",
+    "latitude": 7.388992,
+    "longitude": 80.536512,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "000400000000000000000065",
+    "name": "Kandy Rooftop Solar 101",
+    "meterId": "MTR-000101",
+    "latitude": 7.32604,
+    "longitude": 80.624823,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "000400000000000000000066",
+    "name": "Matale Rooftop Solar 102",
+    "meterId": "MTR-000102",
+    "latitude": 7.463456,
+    "longitude": 80.670605,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "000400000000000000000067",
+    "name": "Nuwara Eliya Rooftop Solar 103",
+    "meterId": "MTR-000103",
+    "latitude": 6.901676,
+    "longitude": 80.855467,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "000400000000000000000068",
+    "name": "Galle Rooftop Solar 104",
+    "meterId": "MTR-000104",
+    "latitude": 6.1077,
+    "longitude": 80.170007,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "000400000000000000000069",
+    "name": "Galle Rooftop Solar 105",
+    "meterId": "MTR-000105",
+    "latitude": 6.037514,
+    "longitude": 80.183863,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "00040000000000000000006a",
+    "name": "Matara Rooftop Solar 106",
+    "meterId": "MTR-000106",
+    "latitude": 5.983873,
+    "longitude": 80.47211,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "00040000000000000000006b",
+    "name": "Hambantota Rooftop Solar 107",
+    "meterId": "MTR-000107",
+    "latitude": 6.208573,
+    "longitude": 81.138877,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "00040000000000000000006c",
+    "name": "Jaffna Rooftop Solar 108",
+    "meterId": "MTR-000108",
+    "latitude": 9.674864,
+    "longitude": 80.011672,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "00040000000000000000006d",
+    "name": "Kilinochchi Rooftop Solar 109",
+    "meterId": "MTR-000109",
+    "latitude": 9.367922,
+    "longitude": 80.287907,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "00040000000000000000006e",
+    "name": "Mannar Rooftop Solar 110",
+    "meterId": "MTR-000110",
+    "latitude": 9.025261,
+    "longitude": 79.971851,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "00040000000000000000006f",
+    "name": "Mullaitivu Rooftop Solar 111",
+    "meterId": "MTR-000111",
+    "latitude": 9.211642,
+    "longitude": 80.751595,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "000400000000000000000070",
+    "name": "Vavuniya Rooftop Solar 112",
+    "meterId": "MTR-000112",
+    "latitude": 8.704625,
+    "longitude": 80.583364,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "000400000000000000000071",
+    "name": "Batticaloa Rooftop Solar 113",
+    "meterId": "MTR-000113",
+    "latitude": 7.759201,
+    "longitude": 81.7209,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "000400000000000000000072",
+    "name": "Ampara Rooftop Solar 114",
+    "meterId": "MTR-000114",
+    "latitude": 7.243749,
+    "longitude": 81.705068,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "000400000000000000000073",
+    "name": "Trincomalee Rooftop Solar 115",
+    "meterId": "MTR-000115",
+    "latitude": 8.638113,
+    "longitude": 81.125342,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "000400000000000000000074",
+    "name": "Kurunegala Rooftop Solar 116",
+    "meterId": "MTR-000116",
+    "latitude": 7.537475,
+    "longitude": 80.438145,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "000400000000000000000075",
+    "name": "Kurunegala Rooftop Solar 117",
+    "meterId": "MTR-000117",
+    "latitude": 7.458385,
+    "longitude": 80.314148,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "000400000000000000000076",
+    "name": "Puttalam Rooftop Solar 118",
+    "meterId": "MTR-000118",
+    "latitude": 7.996622,
+    "longitude": 79.785871,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "000400000000000000000077",
+    "name": "Anuradhapura Rooftop Solar 119",
+    "meterId": "MTR-000119",
+    "latitude": 8.410763,
+    "longitude": 80.412927,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "000400000000000000000078",
+    "name": "Polonnaruwa Rooftop Solar 120",
+    "meterId": "MTR-000120",
+    "latitude": 7.882428,
+    "longitude": 81.061856,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "000400000000000000000079",
+    "name": "Badulla Rooftop Solar 121",
+    "meterId": "MTR-000121",
+    "latitude": 7.04245,
+    "longitude": 81.114701,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "00040000000000000000007a",
+    "name": "Monaragala Rooftop Solar 122",
+    "meterId": "MTR-000122",
+    "latitude": 6.881209,
+    "longitude": 81.304109,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "00040000000000000000007b",
+    "name": "Ratnapura Rooftop Solar 123",
+    "meterId": "MTR-000123",
+    "latitude": 6.62444,
+    "longitude": 80.379144,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "00040000000000000000007c",
+    "name": "Kegalle Rooftop Solar 124",
+    "meterId": "MTR-000124",
+    "latitude": 7.196223,
+    "longitude": 80.30517,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "00040000000000000000007d",
+    "name": "Colombo Rooftop Solar 125",
+    "meterId": "MTR-000125",
+    "latitude": 6.866156,
+    "longitude": 79.825718,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "00040000000000000000007e",
+    "name": "Colombo Rooftop Solar 126",
+    "meterId": "MTR-000126",
+    "latitude": 6.964992,
+    "longitude": 79.89019,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "00040000000000000000007f",
+    "name": "Colombo Rooftop Solar 127",
+    "meterId": "MTR-000127",
+    "latitude": 6.985163,
+    "longitude": 79.825258,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "000400000000000000000080",
+    "name": "Gampaha Rooftop Solar 128",
+    "meterId": "MTR-000128",
+    "latitude": 7.017729,
+    "longitude": 79.996151,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "000400000000000000000081",
+    "name": "Gampaha Rooftop Solar 129",
+    "meterId": "MTR-000129",
+    "latitude": 7.037959,
+    "longitude": 80.106199,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "000400000000000000000082",
+    "name": "Kalutara Rooftop Solar 130",
+    "meterId": "MTR-000130",
+    "latitude": 6.486308,
+    "longitude": 80.050478,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "000400000000000000000083",
+    "name": "Kandy Rooftop Solar 131",
+    "meterId": "MTR-000131",
+    "latitude": 7.290981,
+    "longitude": 80.728539,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "000400000000000000000084",
+    "name": "Kandy Rooftop Solar 132",
+    "meterId": "MTR-000132",
+    "latitude": 7.203547,
+    "longitude": 80.534449,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "000400000000000000000085",
+    "name": "Matale Rooftop Solar 133",
+    "meterId": "MTR-000133",
+    "latitude": 7.50768,
+    "longitude": 80.525119,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "000400000000000000000086",
+    "name": "Nuwara Eliya Rooftop Solar 134",
+    "meterId": "MTR-000134",
+    "latitude": 6.889237,
+    "longitude": 80.758941,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "000400000000000000000087",
+    "name": "Galle Rooftop Solar 135",
+    "meterId": "MTR-000135",
+    "latitude": 5.997373,
+    "longitude": 80.145164,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "000400000000000000000088",
+    "name": "Galle Rooftop Solar 136",
+    "meterId": "MTR-000136",
+    "latitude": 5.984231,
+    "longitude": 80.170721,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "000400000000000000000089",
+    "name": "Matara Rooftop Solar 137",
+    "meterId": "MTR-000137",
+    "latitude": 5.886656,
+    "longitude": 80.634081,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "00040000000000000000008a",
+    "name": "Hambantota Rooftop Solar 138",
+    "meterId": "MTR-000138",
+    "latitude": 6.131307,
+    "longitude": 81.02978,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "00040000000000000000008b",
+    "name": "Jaffna Rooftop Solar 139",
+    "meterId": "MTR-000139",
+    "latitude": 9.619266,
+    "longitude": 80.031993,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "00040000000000000000008c",
+    "name": "Kilinochchi Rooftop Solar 140",
+    "meterId": "MTR-000140",
+    "latitude": 9.30973,
+    "longitude": 80.435455,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "00040000000000000000008d",
+    "name": "Mannar Rooftop Solar 141",
+    "meterId": "MTR-000141",
+    "latitude": 8.950283,
+    "longitude": 79.814448,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "00040000000000000000008e",
+    "name": "Mullaitivu Rooftop Solar 142",
+    "meterId": "MTR-000142",
+    "latitude": 9.242954,
+    "longitude": 80.856813,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "00040000000000000000008f",
+    "name": "Vavuniya Rooftop Solar 143",
+    "meterId": "MTR-000143",
+    "latitude": 8.685418,
+    "longitude": 80.539275,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "000400000000000000000090",
+    "name": "Batticaloa Rooftop Solar 144",
+    "meterId": "MTR-000144",
+    "latitude": 7.754555,
+    "longitude": 81.580137,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "000400000000000000000091",
+    "name": "Ampara Rooftop Solar 145",
+    "meterId": "MTR-000145",
+    "latitude": 7.347609,
+    "longitude": 81.744154,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "000400000000000000000092",
+    "name": "Trincomalee Rooftop Solar 146",
+    "meterId": "MTR-000146",
+    "latitude": 8.656283,
+    "longitude": 81.279029,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "000400000000000000000093",
+    "name": "Kurunegala Rooftop Solar 147",
+    "meterId": "MTR-000147",
+    "latitude": 7.484241,
+    "longitude": 80.369562,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "000400000000000000000094",
+    "name": "Kurunegala Rooftop Solar 148",
+    "meterId": "MTR-000148",
+    "latitude": 7.434573,
+    "longitude": 80.450047,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "000400000000000000000095",
+    "name": "Puttalam Rooftop Solar 149",
+    "meterId": "MTR-000149",
+    "latitude": 8.074978,
+    "longitude": 79.789798,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "000400000000000000000096",
+    "name": "Anuradhapura Rooftop Solar 150",
+    "meterId": "MTR-000150",
+    "latitude": 8.354159,
+    "longitude": 80.372046,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "000400000000000000000097",
+    "name": "Polonnaruwa Rooftop Solar 151",
+    "meterId": "MTR-000151",
+    "latitude": 7.878881,
+    "longitude": 80.924375,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "000400000000000000000098",
+    "name": "Badulla Rooftop Solar 152",
+    "meterId": "MTR-000152",
+    "latitude": 6.957647,
+    "longitude": 81.081902,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "000400000000000000000099",
+    "name": "Monaragala Rooftop Solar 153",
+    "meterId": "MTR-000153",
+    "latitude": 6.957229,
+    "longitude": 81.351721,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "00040000000000000000009a",
+    "name": "Ratnapura Rooftop Solar 154",
+    "meterId": "MTR-000154",
+    "latitude": 6.783317,
+    "longitude": 80.380338,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "00040000000000000000009b",
+    "name": "Kegalle Rooftop Solar 155",
+    "meterId": "MTR-000155",
+    "latitude": 7.285443,
+    "longitude": 80.341524,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "00040000000000000000009c",
+    "name": "Colombo Rooftop Solar 156",
+    "meterId": "MTR-000156",
+    "latitude": 6.84354,
+    "longitude": 79.908203,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "00040000000000000000009d",
+    "name": "Colombo Rooftop Solar 157",
+    "meterId": "MTR-000157",
+    "latitude": 6.926269,
+    "longitude": 79.960231,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "00040000000000000000009e",
+    "name": "Colombo Rooftop Solar 158",
+    "meterId": "MTR-000158",
+    "latitude": 6.978921,
+    "longitude": 79.774534,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "00040000000000000000009f",
+    "name": "Gampaha Rooftop Solar 159",
+    "meterId": "MTR-000159",
+    "latitude": 7.089342,
+    "longitude": 80.105101,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "0004000000000000000000a0",
+    "name": "Gampaha Rooftop Solar 160",
+    "meterId": "MTR-000160",
+    "latitude": 7.011952,
+    "longitude": 79.996468,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "0004000000000000000000a1",
+    "name": "Kalutara Rooftop Solar 161",
+    "meterId": "MTR-000161",
+    "latitude": 6.495918,
+    "longitude": 80.01765,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "0004000000000000000000a2",
+    "name": "Kandy Rooftop Solar 162",
+    "meterId": "MTR-000162",
+    "latitude": 7.325346,
+    "longitude": 80.678995,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "0004000000000000000000a3",
+    "name": "Kandy Rooftop Solar 163",
+    "meterId": "MTR-000163",
+    "latitude": 7.306491,
+    "longitude": 80.653597,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "0004000000000000000000a4",
+    "name": "Matale Rooftop Solar 164",
+    "meterId": "MTR-000164",
+    "latitude": 7.500526,
+    "longitude": 80.64587,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "0004000000000000000000a5",
+    "name": "Nuwara Eliya Rooftop Solar 165",
+    "meterId": "MTR-000165",
+    "latitude": 6.871729,
+    "longitude": 80.747489,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "0004000000000000000000a6",
+    "name": "Galle Rooftop Solar 166",
+    "meterId": "MTR-000166",
+    "latitude": 6.010462,
+    "longitude": 80.181678,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "0004000000000000000000a7",
+    "name": "Galle Rooftop Solar 167",
+    "meterId": "MTR-000167",
+    "latitude": 6.1314,
+    "longitude": 80.317607,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "0004000000000000000000a8",
+    "name": "Matara Rooftop Solar 168",
+    "meterId": "MTR-000168",
+    "latitude": 5.977989,
+    "longitude": 80.561344,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "0004000000000000000000a9",
+    "name": "Hambantota Rooftop Solar 169",
+    "meterId": "MTR-000169",
+    "latitude": 6.196084,
+    "longitude": 81.125406,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "0004000000000000000000aa",
+    "name": "Jaffna Rooftop Solar 170",
+    "meterId": "MTR-000170",
+    "latitude": 9.685301,
+    "longitude": 80.047313,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "0004000000000000000000ab",
+    "name": "Kilinochchi Rooftop Solar 171",
+    "meterId": "MTR-000171",
+    "latitude": 9.288909,
+    "longitude": 80.397447,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "0004000000000000000000ac",
+    "name": "Mannar Rooftop Solar 172",
+    "meterId": "MTR-000172",
+    "latitude": 8.925078,
+    "longitude": 79.858376,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "0004000000000000000000ad",
+    "name": "Mullaitivu Rooftop Solar 173",
+    "meterId": "MTR-000173",
+    "latitude": 9.229684,
+    "longitude": 80.790595,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "0004000000000000000000ae",
+    "name": "Vavuniya Rooftop Solar 174",
+    "meterId": "MTR-000174",
+    "latitude": 8.685587,
+    "longitude": 80.480034,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "0004000000000000000000af",
+    "name": "Batticaloa Rooftop Solar 175",
+    "meterId": "MTR-000175",
+    "latitude": 7.678646,
+    "longitude": 81.59065,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "0004000000000000000000b0",
+    "name": "Ampara Rooftop Solar 176",
+    "meterId": "MTR-000176",
+    "latitude": 7.214415,
+    "longitude": 81.628434,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "0004000000000000000000b1",
+    "name": "Trincomalee Rooftop Solar 177",
+    "meterId": "MTR-000177",
+    "latitude": 8.667687,
+    "longitude": 81.26071,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "0004000000000000000000b2",
+    "name": "Kurunegala Rooftop Solar 178",
+    "meterId": "MTR-000178",
+    "latitude": 7.484475,
+    "longitude": 80.279637,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "0004000000000000000000b3",
+    "name": "Kurunegala Rooftop Solar 179",
+    "meterId": "MTR-000179",
+    "latitude": 7.413152,
+    "longitude": 80.461319,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "0004000000000000000000b4",
+    "name": "Puttalam Rooftop Solar 180",
+    "meterId": "MTR-000180",
+    "latitude": 7.955554,
+    "longitude": 79.93156,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "0004000000000000000000b5",
+    "name": "Anuradhapura Rooftop Solar 181",
+    "meterId": "MTR-000181",
+    "latitude": 8.379967,
+    "longitude": 80.435237,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "0004000000000000000000b6",
+    "name": "Polonnaruwa Rooftop Solar 182",
+    "meterId": "MTR-000182",
+    "latitude": 7.974529,
+    "longitude": 81.100744,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "0004000000000000000000b7",
+    "name": "Badulla Rooftop Solar 183",
+    "meterId": "MTR-000183",
+    "latitude": 6.966294,
+    "longitude": 80.989536,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "0004000000000000000000b8",
+    "name": "Monaragala Rooftop Solar 184",
+    "meterId": "MTR-000184",
+    "latitude": 6.931546,
+    "longitude": 81.371919,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "0004000000000000000000b9",
+    "name": "Ratnapura Rooftop Solar 185",
+    "meterId": "MTR-000185",
+    "latitude": 6.658891,
+    "longitude": 80.384551,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "0004000000000000000000ba",
+    "name": "Kegalle Rooftop Solar 186",
+    "meterId": "MTR-000186",
+    "latitude": 7.29232,
+    "longitude": 80.372487,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "0004000000000000000000bb",
+    "name": "Colombo Rooftop Solar 187",
+    "meterId": "MTR-000187",
+    "latitude": 7.015565,
+    "longitude": 79.901617,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "0004000000000000000000bc",
+    "name": "Colombo Rooftop Solar 188",
+    "meterId": "MTR-000188",
+    "latitude": 6.933769,
+    "longitude": 79.86354,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "0004000000000000000000bd",
+    "name": "Colombo Rooftop Solar 189",
+    "meterId": "MTR-000189",
+    "latitude": 6.884674,
+    "longitude": 79.919328,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "0004000000000000000000be",
+    "name": "Gampaha Rooftop Solar 190",
+    "meterId": "MTR-000190",
+    "latitude": 7.111087,
+    "longitude": 80.015979,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "0004000000000000000000bf",
+    "name": "Gampaha Rooftop Solar 191",
+    "meterId": "MTR-000191",
+    "latitude": 7.000252,
+    "longitude": 80.076356,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "0004000000000000000000c0",
+    "name": "Kalutara Rooftop Solar 192",
+    "meterId": "MTR-000192",
+    "latitude": 6.504171,
+    "longitude": 79.931164,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "0004000000000000000000c1",
+    "name": "Kandy Rooftop Solar 193",
+    "meterId": "MTR-000193",
+    "latitude": 7.332327,
+    "longitude": 80.597144,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "0004000000000000000000c2",
+    "name": "Kandy Rooftop Solar 194",
+    "meterId": "MTR-000194",
+    "latitude": 7.30394,
+    "longitude": 80.603057,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "0004000000000000000000c3",
+    "name": "Matale Rooftop Solar 195",
+    "meterId": "MTR-000195",
+    "latitude": 7.392656,
+    "longitude": 80.679866,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "0004000000000000000000c4",
+    "name": "Nuwara Eliya Rooftop Solar 196",
+    "meterId": "MTR-000196",
+    "latitude": 6.864679,
+    "longitude": 80.814556,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "0004000000000000000000c5",
+    "name": "Galle Rooftop Solar 197",
+    "meterId": "MTR-000197",
+    "latitude": 6.110677,
+    "longitude": 80.24256,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "0004000000000000000000c6",
+    "name": "Galle Rooftop Solar 198",
+    "meterId": "MTR-000198",
+    "latitude": 5.954483,
+    "longitude": 80.296211,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "0004000000000000000000c7",
+    "name": "Matara Rooftop Solar 199",
+    "meterId": "MTR-000199",
+    "latitude": 6.04278,
+    "longitude": 80.58568,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "0004000000000000000000c8",
+    "name": "Hambantota Rooftop Solar 200",
+    "meterId": "MTR-000200",
+    "latitude": 6.055266,
+    "longitude": 81.179199,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "0004000000000000000000c9",
+    "name": "Jaffna Rooftop Solar 201",
+    "meterId": "MTR-000201",
+    "latitude": 9.671647,
+    "longitude": 79.945552,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "0004000000000000000000ca",
+    "name": "Kilinochchi Rooftop Solar 202",
+    "meterId": "MTR-000202",
+    "latitude": 9.326814,
+    "longitude": 80.37047,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "0004000000000000000000cb",
+    "name": "Mannar Rooftop Solar 203",
+    "meterId": "MTR-000203",
+    "latitude": 8.908891,
+    "longitude": 79.9694,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "0004000000000000000000cc",
+    "name": "Mullaitivu Rooftop Solar 204",
+    "meterId": "MTR-000204",
+    "latitude": 9.350911,
+    "longitude": 80.742912,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "0004000000000000000000cd",
+    "name": "Vavuniya Rooftop Solar 205",
+    "meterId": "MTR-000205",
+    "latitude": 8.66407,
+    "longitude": 80.508879,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "0004000000000000000000ce",
+    "name": "Batticaloa Rooftop Solar 206",
+    "meterId": "MTR-000206",
+    "latitude": 7.786935,
+    "longitude": 81.594214,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "0004000000000000000000cf",
+    "name": "Ampara Rooftop Solar 207",
+    "meterId": "MTR-000207",
+    "latitude": 7.342092,
+    "longitude": 81.745023,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "0004000000000000000000d0",
+    "name": "Trincomalee Rooftop Solar 208",
+    "meterId": "MTR-000208",
+    "latitude": 8.600675,
+    "longitude": 81.230084,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "0004000000000000000000d1",
+    "name": "Kurunegala Rooftop Solar 209",
+    "meterId": "MTR-000209",
+    "latitude": 7.58584,
+    "longitude": 80.294156,
+    "substationId": "000300000000000000000017"
+  },
+  {
+    "_id": "0004000000000000000000d2",
+    "name": "Kurunegala Rooftop Solar 210",
+    "meterId": "MTR-000210",
+    "latitude": 7.568321,
+    "longitude": 80.28326,
+    "substationId": "000300000000000000000018"
+  },
+  {
+    "_id": "0004000000000000000000d3",
+    "name": "Puttalam Rooftop Solar 211",
+    "meterId": "MTR-000211",
+    "latitude": 7.941653,
+    "longitude": 79.840766,
+    "substationId": "000300000000000000000019"
+  },
+  {
+    "_id": "0004000000000000000000d4",
+    "name": "Anuradhapura Rooftop Solar 212",
+    "meterId": "MTR-000212",
+    "latitude": 8.349043,
+    "longitude": 80.40375,
+    "substationId": "00030000000000000000001a"
+  },
+  {
+    "_id": "0004000000000000000000d5",
+    "name": "Polonnaruwa Rooftop Solar 213",
+    "meterId": "MTR-000213",
+    "latitude": 7.868536,
+    "longitude": 80.971804,
+    "substationId": "00030000000000000000001b"
+  },
+  {
+    "_id": "0004000000000000000000d6",
+    "name": "Badulla Rooftop Solar 214",
+    "meterId": "MTR-000214",
+    "latitude": 6.946621,
+    "longitude": 81.120254,
+    "substationId": "00030000000000000000001c"
+  },
+  {
+    "_id": "0004000000000000000000d7",
+    "name": "Monaragala Rooftop Solar 215",
+    "meterId": "MTR-000215",
+    "latitude": 6.957013,
+    "longitude": 81.373924,
+    "substationId": "00030000000000000000001d"
+  },
+  {
+    "_id": "0004000000000000000000d8",
+    "name": "Ratnapura Rooftop Solar 216",
+    "meterId": "MTR-000216",
+    "latitude": 6.774578,
+    "longitude": 80.327645,
+    "substationId": "00030000000000000000001e"
+  },
+  {
+    "_id": "0004000000000000000000d9",
+    "name": "Kegalle Rooftop Solar 217",
+    "meterId": "MTR-000217",
+    "latitude": 7.192513,
+    "longitude": 80.361998,
+    "substationId": "00030000000000000000001f"
+  },
+  {
+    "_id": "0004000000000000000000da",
+    "name": "Colombo Rooftop Solar 218",
+    "meterId": "MTR-000218",
+    "latitude": 6.886396,
+    "longitude": 79.829065,
+    "substationId": "000300000000000000000001"
+  },
+  {
+    "_id": "0004000000000000000000db",
+    "name": "Colombo Rooftop Solar 219",
+    "meterId": "MTR-000219",
+    "latitude": 6.96029,
+    "longitude": 79.949284,
+    "substationId": "000300000000000000000002"
+  },
+  {
+    "_id": "0004000000000000000000dc",
+    "name": "Colombo Rooftop Solar 220",
+    "meterId": "MTR-000220",
+    "latitude": 6.829756,
+    "longitude": 79.872157,
+    "substationId": "000300000000000000000003"
+  },
+  {
+    "_id": "0004000000000000000000dd",
+    "name": "Gampaha Rooftop Solar 221",
+    "meterId": "MTR-000221",
+    "latitude": 7.072062,
+    "longitude": 79.956836,
+    "substationId": "000300000000000000000004"
+  },
+  {
+    "_id": "0004000000000000000000de",
+    "name": "Gampaha Rooftop Solar 222",
+    "meterId": "MTR-000222",
+    "latitude": 7.103927,
+    "longitude": 80.081978,
+    "substationId": "000300000000000000000005"
+  },
+  {
+    "_id": "0004000000000000000000df",
+    "name": "Kalutara Rooftop Solar 223",
+    "meterId": "MTR-000223",
+    "latitude": 6.647091,
+    "longitude": 80.055871,
+    "substationId": "000300000000000000000006"
+  },
+  {
+    "_id": "0004000000000000000000e0",
+    "name": "Kandy Rooftop Solar 224",
+    "meterId": "MTR-000224",
+    "latitude": 7.256004,
+    "longitude": 80.638628,
+    "substationId": "000300000000000000000007"
+  },
+  {
+    "_id": "0004000000000000000000e1",
+    "name": "Kandy Rooftop Solar 225",
+    "meterId": "MTR-000225",
+    "latitude": 7.227861,
+    "longitude": 80.713095,
+    "substationId": "000300000000000000000008"
+  },
+  {
+    "_id": "0004000000000000000000e2",
+    "name": "Matale Rooftop Solar 226",
+    "meterId": "MTR-000226",
+    "latitude": 7.490612,
+    "longitude": 80.580125,
+    "substationId": "000300000000000000000009"
+  },
+  {
+    "_id": "0004000000000000000000e3",
+    "name": "Nuwara Eliya Rooftop Solar 227",
+    "meterId": "MTR-000227",
+    "latitude": 6.910206,
+    "longitude": 80.699772,
+    "substationId": "00030000000000000000000a"
+  },
+  {
+    "_id": "0004000000000000000000e4",
+    "name": "Galle Rooftop Solar 228",
+    "meterId": "MTR-000228",
+    "latitude": 6.075729,
+    "longitude": 80.277862,
+    "substationId": "00030000000000000000000b"
+  },
+  {
+    "_id": "0004000000000000000000e5",
+    "name": "Galle Rooftop Solar 229",
+    "meterId": "MTR-000229",
+    "latitude": 6.062829,
+    "longitude": 80.130885,
+    "substationId": "00030000000000000000000c"
+  },
+  {
+    "_id": "0004000000000000000000e6",
+    "name": "Matara Rooftop Solar 230",
+    "meterId": "MTR-000230",
+    "latitude": 5.98326,
+    "longitude": 80.475657,
+    "substationId": "00030000000000000000000d"
+  },
+  {
+    "_id": "0004000000000000000000e7",
+    "name": "Hambantota Rooftop Solar 231",
+    "meterId": "MTR-000231",
+    "latitude": 6.031798,
+    "longitude": 81.125585,
+    "substationId": "00030000000000000000000e"
+  },
+  {
+    "_id": "0004000000000000000000e8",
+    "name": "Jaffna Rooftop Solar 232",
+    "meterId": "MTR-000232",
+    "latitude": 9.679305,
+    "longitude": 80.058092,
+    "substationId": "00030000000000000000000f"
+  },
+  {
+    "_id": "0004000000000000000000e9",
+    "name": "Kilinochchi Rooftop Solar 233",
+    "meterId": "MTR-000233",
+    "latitude": 9.280956,
+    "longitude": 80.371933,
+    "substationId": "000300000000000000000010"
+  },
+  {
+    "_id": "0004000000000000000000ea",
+    "name": "Mannar Rooftop Solar 234",
+    "meterId": "MTR-000234",
+    "latitude": 8.997605,
+    "longitude": 79.839573,
+    "substationId": "000300000000000000000011"
+  },
+  {
+    "_id": "0004000000000000000000eb",
+    "name": "Mullaitivu Rooftop Solar 235",
+    "meterId": "MTR-000235",
+    "latitude": 9.2511,
+    "longitude": 80.776888,
+    "substationId": "000300000000000000000012"
+  },
+  {
+    "_id": "0004000000000000000000ec",
+    "name": "Vavuniya Rooftop Solar 236",
+    "meterId": "MTR-000236",
+    "latitude": 8.69084,
+    "longitude": 80.582256,
+    "substationId": "000300000000000000000013"
+  },
+  {
+    "_id": "0004000000000000000000ed",
+    "name": "Batticaloa Rooftop Solar 237",
+    "meterId": "MTR-000237",
+    "latitude": 7.631332,
+    "longitude": 81.736719,
+    "substationId": "000300000000000000000014"
+  },
+  {
+    "_id": "0004000000000000000000ee",
+    "name": "Ampara Rooftop Solar 238",
+    "meterId": "MTR-000238",
+    "latitude": 7.296438,
+    "longitude": 81.694973,
+    "substationId": "000300000000000000000015"
+  },
+  {
+    "_id": "0004000000000000000000ef",
+    "name": "Trincomalee Rooftop Solar 239",
+    "meterId": "MTR-000239",
+    "latitude": 8.604244,
+    "longitude": 81.233263,
+    "substationId": "000300000000000000000016"
+  },
+  {
+    "_id": "0004000000000000000000f0",
+    "name": "Kurunegala Rooftop Solar 240",
+    "meterId": "MTR-000240",
+    "latitude": 7.413774,
+    "longitude": 80.370051,
+    "substationId": "000300000000000000000017"
+  }
+]

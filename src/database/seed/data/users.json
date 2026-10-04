@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "000500000000000000000001",
+    "name": "National Officer",
+    "email": "solar#out1st1@gmail.com",
+    "passwordHash": "$2b$10$nS.cTfaI4xYU7vxgmRBQjOPpWhiPuPmJYJxJMOCP0qg9894b91PDO",
+    "role": "national",
+    "jurisdictionType": "all",
+    "jurisdictionId": null
+  },
+  {
+    "_id": "000500000000000000000002",
+    "name": "Western Province Officer",
+    "email": "solar#out1st2@gmail.com",
+    "passwordHash": "$2b$10$nS.cTfaI4xYU7vxgmRBQjOPpWhiPuPmJYJxJMOCP0qg9894b91PDO",
+    "role": "province",
+    "jurisdictionType": "province",
+    "jurisdictionId": "000100000000000000000001"
+  },
+  {
+    "_id": "000500000000000000000003",
+    "name": "Colombo District Officer",
+    "email": "solar#out1st3@gmail.com",
+    "passwordHash": "$2b$10$nS.cTfaI4xYU7vxgmRBQjOPpWhiPuPmJYJxJMOCP0qg9894b91PDO",
+    "role": "district",
+    "jurisdictionType": "district",
+    "jurisdictionId": "000200000000000000000001"
+  },
+  {
+    "_id": "000500000000000000000004",
+    "name": "Kandy District Officer",
+    "email": "solar#out1st4@gmail.com",
+    "passwordHash": "$2b$10$nS.cTfaI4xYU7vxgmRBQjOPpWhiPuPmJYJxJMOCP0qg9894b91PDO",
+    "role": "district",
+    "jurisdictionType": "district",
+    "jurisdictionId": "000200000000000000000004"
+  }
+]
