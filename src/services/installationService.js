@@ -9,15 +9,11 @@ import { getInstallationForUser } from './installationLookup.js';
 
 export { getInstallation, getInstallationForUser } from './installationLookup.js';
 
-// Once the substation is accessible, every installation under it is in the user's scope.
 export async function listInstallationsBySubstation(substationId, page, user) {
   await getSubstationForUser(substationId, user); // 404 if missing, 403 if out of scope
   return findPage(SolarInstallation, { substationId }, page);
 }
 
-// Composite: the installation plus its substation, district, province and latest reading.
-// The ancestors are embedded as context for a user who may read the installation.
-// The readings history is not included.
 export async function getInstallationComposite(installationId, user) {
   const installation = await getInstallationForUser(installationId, user);
 
@@ -31,7 +27,6 @@ export async function getInstallationComposite(installationId, user) {
   return { ...installation, substation, district, province, lastReading };
 }
 
-// The single most recent reading. 404 if the installation does not exist or has no readings.
 export async function getInstallationLastReading(installationId, user) {
   await getInstallationForUser(installationId, user);
 

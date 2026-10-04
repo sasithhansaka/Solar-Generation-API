@@ -14,9 +14,6 @@ export async function listDistrictSubstationsHandler(req, res) {
   sendJson(req, res, buildPage(req, items, total, page));
 }
 
-// Operational summary for a district (derived resource). The generation time changes on every
-// request, so the ETag is computed from the figures only and is weak: a client that already
-// holds the same figures gets 304.
 export async function getDistrictGenerationSummaryHandler(req, res) {
   const summary = await getDistrictGenerationSummary(req.params.districtId, req.user);
   const { generatedAt, ...figures } = summary;

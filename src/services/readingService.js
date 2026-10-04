@@ -7,14 +7,10 @@ import { conflict, invalidQuery, notFound } from '../utils/errors.js';
 import { assertCanAccess, getScopedInstallationIds } from './authorizationService.js';
 import { getInstallationForUser } from './installationLookup.js';
 
-// Most recent reading for an installation, or null if it has none.
-// Uses the { installationId: 1, timestamp: -1 } index. Shared by the installation
-// composite and the last-reading resource.
 export function getLastReading(installationId) {
   return GenerationReading.findOne({ installationId }).sort({ timestamp: -1 }).lean();
 }
 
-// Optional inclusive time window on timestamp.
 function timeWindow({ from, to }) {
   if (!from && !to) return {};
   const range = {};
@@ -23,7 +19,6 @@ function timeWindow({ from, to }) {
   return { timestamp: range };
 }
 
-// Filter, then sort, then paginate. total counts every document matching the filter.
 async function queryReadings(filter, sort, { skip, limit }) {
   const [items, total] = await Promise.all([
     GenerationReading.find(filter).sort(sort).skip(skip).limit(limit).lean(),
@@ -32,7 +27,6 @@ async function queryReadings(filter, sort, { skip, limit }) {
   return { items, total };
 }
 
-// History of one installation. 404 if it does not exist, 403 if outside the user's jurisdiction.
 export async function listInstallationReadings(installationId, query, user) {
   await getInstallationForUser(installationId, user);
 
@@ -40,8 +34,7 @@ export async function listInstallationReadings(installationId, query, user) {
   return queryReadings(filter, { timestamp: query.direction }, query);
 }
 
-// One reading of one installation. The installation is checked first (404, then 403);
-// 404 if the reading does not exist or belongs to another installation.
+
 export async function getReading(installationId, readingId, user) {
   await getInstallationForUser(installationId, user);
 
