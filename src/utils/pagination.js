@@ -13,8 +13,6 @@ function parsePositiveInt(name, value, fallback) {
   return Number(value);
 }
 
-// Reads ?page=&limit= (defaults 1 and 10, limit capped at 100).
-// Unknown query parameters are rejected; extraParams lists the other parameters a route accepts.
 export function parsePagination(query, extraParams = []) {
   const allowed = [...PAGINATION_PARAMS, ...extraParams];
   const unknown = Object.keys(query).filter((key) => !allowed.includes(key));
@@ -30,7 +28,6 @@ export function parsePagination(query, extraParams = []) {
   return { page, limit, skip: (page - 1) * limit };
 }
 
-// Runs the query for one page and the total count of all matching documents.
 export async function findPage(Model, filter, { skip, limit }) {
   const [items, total] = await Promise.all([
     Model.find(filter).sort({ name: 1, _id: 1 }).skip(skip).limit(limit).lean(),
@@ -39,11 +36,9 @@ export async function findPage(Model, filter, { skip, limit }) {
   return { items, total };
 }
 
-// { data, pagination: { page, limit, total, next, previous } }
 export function buildPage(req, items, total, { page, limit }) {
   const path = new URL(req.originalUrl, 'http://localhost').pathname;
 
-  // Keep every active filter and the sort order; only page and limit change.
   const link = (p) => {
     const params = new URLSearchParams({ page: String(p), limit: String(limit) });
     for (const [key, value] of Object.entries(req.query)) {

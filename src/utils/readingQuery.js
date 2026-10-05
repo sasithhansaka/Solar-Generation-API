@@ -2,7 +2,7 @@ import { invalidQuery } from './errors.js';
 import { parsePagination } from './pagination.js';
 
 const OBJECT_ID = /^[0-9a-fA-F]{24}$/;
-// 2026-10-03 or 2026-10-03T10:30:00Z (a time needs Z or an offset such as +05:30)
+
 const ISO_8601 = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2}(\.\d{1,3})?)?(Z|[+-]\d{2}:\d{2}))?$/;
 
 const SORTS = { 'timestamp:asc': 1, 'timestamp:desc': -1 };
@@ -35,8 +35,6 @@ function parseObjectId(name, value) {
   return text;
 }
 
-// Validates ?page&limit&sort&from&to (and, for GET /readings, provinceId/districtId/substationId).
-// Unknown parameters are rejected with 400 INVALID_QUERY.
 export function parseReadingQuery(query, { scopeFilters = false } = {}) {
   const extra = ['sort', 'from', 'to', ...(scopeFilters ? SCOPE_PARAMS : [])];
   const pagination = parsePagination(query, extra);
